@@ -1,13 +1,7 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
+*.vcproj.*.user
+*.ncb
+*.aps
+*.suo
+*.sdf
+\Debug
+\PilasPaint\Debug
