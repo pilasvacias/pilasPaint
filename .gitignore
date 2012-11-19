@@ -1,3 +1,7 @@
+#Las librerias están quitadas, ocupan demasiado. Leer el txt.
+/pilasPaint/SFML
+/pilasPaint/wx2.9.4
+
 
 #OS junk files
 [Tt]humbs.db
