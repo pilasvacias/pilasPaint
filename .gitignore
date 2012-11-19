@@ -1,10 +1,3 @@
-*.vcproj.*.user
-*.ncb
-*.aps
-*.suo
-*.sdf
-\Debug
-\PilasPaint\Debug
 
 #OS junk files
 [Tt]humbs.db
@@ -42,6 +35,7 @@ Ankh.NoLoad
 #MonoDevelop
 *.pidb
 *.userprefs
+*.props
 
 #Tooling
 _ReSharper*/
