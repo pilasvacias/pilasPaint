@@ -10,5 +10,7 @@ int main(){
 	std::cin.get();
 	std::cout << "Cambio de Pablo.";
 	std::cin.get();
+	std::cout << "Cambio de Pablo desde VS + Sync.";
+	std::cin.get();
 	return 0;	
 }
