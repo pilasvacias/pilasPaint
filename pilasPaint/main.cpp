@@ -21,7 +21,7 @@ public :
 		wxSFMLCanvas(Parent, Id, Position, Size, Style)
 	{
 		// Load an image and assign it to our sprite
-		ok = m_texture.loadFromFile("sprite.png");
+		ok = m_texture.loadFromFile("img/sprite.png");
 		m_sprite.setTexture(m_texture);
 	}
 
