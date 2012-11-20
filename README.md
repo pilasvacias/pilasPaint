@@ -18,6 +18,10 @@ del proyecto al lado de los archivos que se están sincronizando.
 Candado azul: Tracked. Cruz verde: Nuevo archivo que aún no se ha subido <br>
 (saldrá cuando creas tu el archivo). Tick rojo: Modificado. Etc.
 
+Sincronizar cambios: Pulsamos en repositories en el menú lateral. Después abrimos <br> 
+el repositorio pilasPaint, pulsando en la flecha azul. Esperamos a que termine de refrescar los cambios. <br> 
+Por último, pulsamos Sync en el menú de la parte superior, a la derecha del nombre del repositorio.
+
 Información útil: 
 * archivo .gitignore: Para que no sincronice archivos o carpetas completos.
 
