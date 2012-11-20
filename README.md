@@ -1,32 +1,58 @@
 pilaspaint
 ==========
 
-Para usar git en vs2012 hay que bajar: 
-* El addon para vs: http://gitscc.codeplex.com/ 
-* Github para windows (creo que no hace falta, pero es más cómodo): http://windows.github.com/
+###Descargas:
+* [Git](http://git-scm.com/download/win)
+* [Git Source Control - VS2012 Addin](http://gitscc.codeplex.com)
+* [Github para windows](http://windows.github.com)
+* [SFML 2.0 y wxWidgets 2.9.4](http://www.mediafire.com/?3uiprc7jba23oq2)
 
-Conviene leerse los tutoriales de los 2 para saber como guardar <br> 
-repos de forma local y sincronizarlos.
+###Instalación
 
-Una vez instalado en el menú de vs2012 hay que cambiarlo para que use el addon:<br> 
-Tools -> Options -> Source Control -> Seleccionar Git Source Control
+  <table>
 
-Si habéis usado el programa de git para Windows para que sincronice el proyecto <br>
-al abrir el archivo pilasPaint.sln deberían aparecer unos simbólos en el explorador <br>
-del proyecto al lado de los archivos que se están sincronizando.
+  <tr>
+  <td> __Git__ </td>
+  <td> Instalación básica. </td>
+  </tr>
 
-Candado azul: Tracked. Cruz verde: Nuevo archivo que aún no se ha subido <br>
-(saldrá cuando creas tu el archivo). Tick rojo: Modificado. Etc.
+  <tr>
+  <td> __Git Source Control__ </td>
+  <td> 
+    Después de instalar:<br>
+    `Tools -> Options -> Source Control -> Current Source Control -> Git` 
+  </td>
+  </tr>
 
-Sincronizar cambios: Pulsamos en repositories en el menú lateral. Después abrimos <br> 
-el repositorio pilasPaint, pulsando en la flecha azul. Esperamos a que termine de refrescar los cambios. <br> 
-Por último, pulsamos Sync en el menú de la parte superior, a la derecha del nombre del repositorio.
+  <tr>
+  <td> __Github para Windows__ </td>
+  <td> Instalación báisca. Después de instalar es aconsejable cambiar la ruta donde se va a sincronzar 
+  el proyecto local. </td>
+  </tr>
 
-Información útil: 
-* archivo .gitignore: Para que no sincronice archivos o carpetas completos.
+  <tr>
+  <td> __SFML y wxWidgets__ </td>
+  <td>
+    Antes de instalar necesitas haber sincronizado tu proyecto<br>
+    Las libererías necesarias que deben estar en la carpeta `..\pilasPaint\pilasPaint`<br>
+    ej: `..\Carpeta de la Solución\Carpeta del Proyecto\SFML`
+  </td>
+  </tr>
 
-Comandos útiles (desde el bash de git): 
-* git add "nombre del archivo"
-* git push origin master:master
-* git commit -m 'mensaje'
-* git status
+  </table>
+
+###Cómo guardar tus cambios desde Visual Studio
+En el explorador de la solución: <br>
+` Click derecho -> Git Pending Changes -> Seleccionar Cambios -> Commit ` <br>
+Es necesario un mensaje para realizar el commit.
+Los cambios que no se incluyen en el commit permanecen locales.
+Todos los cambios serán locales hasta que sincronices el proyecto.
+Los cambios externos no se refelejan hasta que sincronices el proyecto.
+
+###Cómo sincronizar el proyecto con Git for Windows
+Si no hay copia local, crearla con la opción `clone`, que copiará todos los archivos necesarios.
+
+Em el menú lateral abrir el repositorio pilasPaint, pulsando en la flecha azul. <br>
+En este momento Git comprueba los cambios pendientes. <br>
+Si no está sincronizado, click a `sync` en el menú de la parte superior, a la derecha del nombre del repositorio. <br>
+Si otra persona o tú ha realizado cambios en el proyecto, se sincronizarán en este momento <br>
