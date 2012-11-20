@@ -7,7 +7,7 @@ bool App::OnInit()
 {
 	m_menu = new Menu(wxT("Main menu"));
 	m_menu->Show(true);
-
+	//Cambio de código en la rama
 	return true;
 }
 
