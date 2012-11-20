@@ -11,14 +11,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\..\Desktop\sprite.png" />
+    <ClInclude Include="App.h" />
+    <ClInclude Include="Menu.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="wxSFMLCanvas.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="wxSFMLCanvas.cpp" />
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="Menu.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{C579BBDF-9F41-473D-B2BE-DE033026E88B}</ProjectGuid>
