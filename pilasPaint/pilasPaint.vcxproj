@@ -11,12 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="App.h" />
-    <ClInclude Include="Menu.h" />
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="Sizer.cpp" />
+    <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="App.cpp" />
-    <ClCompile Include="Menu.cpp" />
+    <ClInclude Include="App.h" />
+    <ClInclude Include="Sizer.h" />
+    <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{C579BBDF-9F41-473D-B2BE-DE033026E88B}</ProjectGuid>

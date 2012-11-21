@@ -1,13 +1,12 @@
 #include "App.h"
-
-IMPLEMENT_APP(App);
+#include "Sizer.h"
 
 
 bool App::OnInit()
 {
-	m_menu = new Menu(wxT("Main menu"));
-	m_menu->Show(true);
-	//Cambio de código en la rama
+	Sizer *s = new Sizer(wxT("pilasPaint"));
+	s->Show(true);
+
 	return true;
 }
 
@@ -19,3 +18,6 @@ App::App(void)
 App::~App(void)
 {
 }
+
+
+IMPLEMENT_APP(App)
